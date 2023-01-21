@@ -26,6 +26,7 @@ package_app:
 	cp DS3activate DS3activate.app/Contents/MacOS/DS3activate
 	cp Info.plist DS3activate.app/Contents/
 	cp ds3.sh DS3activate.app/Contents/MacOS/ds3
+	chmod +x DS3activate.app/Contents/MacOS/ds3
 	cp AppIcon.icns DS3activate.app/Contents/Resources 
 
 clean:
